@@ -1,0 +1,87 @@
+body {
+	background-image: url('fractal4.jpg');
+}
+
+h1 {
+	text-align: center;
+	font-size: 40pt;
+	line-height: 55px;
+	padding-bottom: 20px;
+}
+
+p {
+	width: 1125px;
+	margin-left: 168px;
+	padding-bottom: 30px;
+}
+
+h1,
+p,
+a,
+.caption {
+	font-family: 'Lobster Two', cursive;
+	color: #F3F9E2;
+	text-shadow: #3FA169 3px 3px;	
+}
+
+.word-container,
+.box,
+.images {
+	background-color: rgba(186,218,85, .5);
+}
+
+p,
+.caption {
+	font-size: 15pt;
+}
+
+.box {
+	border: solid black 2px;
+	border-radius: 4px;
+	padding: 20px;
+	position: relative;
+	left: 3px;
+	top: 40px;
+	max-width: 100px;
+	height: 550px;
+	
+}
+
+.dead-links {
+	position: absolute;
+	left: 35px;
+	top: 25px;
+	z-index: 1;
+	text-decoration: none;
+	line-height: 45px;
+	font-size: 12pt;
+}
+
+a {
+	text-decoration: none !important;
+	color: #2d2d2d;
+}
+
+a:hover {
+	color: green;
+}
+
+li {
+	list-style-type: square;
+	font-size: 18pt;
+}
+
+.images {
+	position: relative;
+	margin: 4%;
+	border: black solid 2px;
+	border-radius: 3%;
+	padding: 3px 3px 10px;
+	left: 110px;
+	top: -606px;
+	float: left;
+}
+
+img {
+	border-radius: 3%;
+}
